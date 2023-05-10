@@ -13,6 +13,9 @@ export default class Counter extends Component {
     });
   }
   lowerCount() {
+    if(this.state.Count ===0){
+      return false
+    }
     this.setState((prevState) => {
       return { Count: prevState.Count - 1 };
     });
