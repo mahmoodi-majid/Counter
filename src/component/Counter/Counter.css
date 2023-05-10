@@ -1,3 +1,38 @@
-h1 {
-    color: rebeccapurple;
+#main {
+  border: 0.3em solid black;
+  width: 26em;
+  height: 400px;
+  margin-top: 7em;
+}
+#title {
+  font-size: 3em;
+}
+#counter {
+  font-size: 2em;
+}
+#add {
+  color: white;
+  padding: 20px;
+  width: 40%;
+  background-color: rgb(126, 116, 105);
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+#lower {
+  color: white;
+  padding: 20px;
+  width: 40%;
+  background-color: rgb(126, 116, 105);
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 20px;
+  margin-left: 1em;
 }
